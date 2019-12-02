@@ -20,10 +20,22 @@ export default () => (
             <li><a href="/APIfetchVariableURL">Fetching from API with variable URL</a></li>
         </ul>
         <h2>useRef</h2>
-        <ul>
+        <ul>    
             <li><a href="/useRef">Storing reference to a component</a></li>
+            <li><a href="/useRefInteger">Storing integer</a></li>
 
         </ul>      
+        <h2>useLayoutEffect</h2>
+        <ul>    
+            <li><a href="/layout">Layout</a></li>
+            <li><a href="/layoutCustomHook">ERROR: Layout Custom Hook</a></li> 
+        </ul>      
+        <h2>CodeCademyk</h2>
+        <ul>    
+            <li><a href="/pi">Genrating Peee :)</a></li>
+            <li><a href="/changePic">Change picture on Click</a></li>
+            <li><a href="/settingAttribute">ERROR: e.target.setAttribute not working in function comopnent??? Setting attribute with a function</a></li>
+        </ul>   
     </div>
 )
 

@@ -4,7 +4,7 @@ import { useFetch } from "../components/useFetch.js"
 
 // Example 1: setting initial value of count to 0:
 
-/*
+
 
 export const APIContainer2 = () => {
     const [count, setCount] = useState(JSON.parse(localStorage.getItem("count")));
@@ -35,8 +35,8 @@ export const APIContainer2 = () => {
     )
 }
 
-*/
 
+/*
 //Example 2: saving the count in local memory, so that next time, we continue with the last number stored, not always from 0
 // however, if we use: const [count, setCount] = useState(JSON.parse(localStorage.getItem("count")));
 // JSON.parse will be called every time we render
@@ -71,3 +71,4 @@ export const APIContainer2 = () => {
         </div>
     )
 }
+*/
